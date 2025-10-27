@@ -1,0 +1,14 @@
+asyncio  # asyncio is a part of the Python standard library, so no need to include it in requirements.txt
+msal==1.20.0        # Microsoft Authentication Library (or the version you're using)
+requests==2.31.0    # HTTP library for Python (or the version you're using)
+urllib3==2.0.4      # Dependency used by 'requests' for handling retries, connections, etc.
+pyjwt  # 'jwt' is part of the PyJWT library
+pytz
+pandas
+mysql.connector
+asyncio
+configparser
+iutils
+BeautifulSoup4
+
+

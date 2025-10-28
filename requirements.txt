@@ -1,14 +1,20 @@
-asyncio  # asyncio is a part of the Python standard library, so no need to include it in requirements.txt
-msal==1.20.0        # Microsoft Authentication Library (or the version you're using)
-requests==2.31.0    # HTTP library for Python (or the version you're using)
-urllib3==2.0.4      # Dependency used by 'requests' for handling retries, connections, etc.
-pyjwt  # 'jwt' is part of the PyJWT library
-pytz
-pandas
-mysql.connector
-asyncio
-configparser
-iutils
-BeautifulSoup4
+# Auth / HTTP
+msal==1.20.0
+requests==2.31.0
+PyJWT==2.8.0
 
+# Time / Data
+pytz==2024.2
+pandas==2.2.3
 
+# MySQL driver (pick ONE family; this matches `import mysql.connector`)
+mysql-connector-python==8.4.0
+
+pymysql 
+
+# HTML parsing
+beautifulsoup4==4.12.3
+# (Optional) Faster parser for bs4: lxml==4.9.4
+
+# Windows COM (for win32com.client)
+pywin32

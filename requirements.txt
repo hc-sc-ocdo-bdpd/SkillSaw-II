@@ -18,3 +18,8 @@ beautifulsoup4==4.12.3
 
 # Windows COM (for win32com.client)
 pywin32
+tqdm
+pyodbc
+msal
+pyspark 
+semantic-link
